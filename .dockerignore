@@ -1,0 +1,30 @@
+# Fichiers et dossiers à ignorer lors de la build Docker
+node_modules/*
+npm-debug.log*
+.npm
+.next
+.nuxt
+.vuepress/dist
+.serverless
+.DS_Store
+.env*
+!.env.example
+README.md
+.git
+.gitignore
+.eslintrc*
+.prettierrc*
+coverage
+.nyc_output
+.cache
+dist
+build
+.vscode
+.idea
+*.log
+public/data/*
+
+# Garder les fichiers Prisma nécessaires
+!prisma/
+!schema.prisma
+docker-compose.yaml
