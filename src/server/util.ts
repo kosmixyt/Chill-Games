@@ -12,6 +12,7 @@ export interface Game {
   materials?: string[];
   tips?: string[];
   href: string;
+  minPlayers: number;
 }
 
 // Base de données des jeux
@@ -35,6 +36,28 @@ export const games: Game[] = [
       "Favorisez la bonne humeur et l'inclusion",
     ],
     href: "/play/action-ou-verite",
+    minPlayers: 2,
+  },
+  {
+    id: 2,
+    name: "Undercover",
+    description:
+      "Un jeu de déduction sociale où les joueurs doivent découvrir qui est l'Undercover tout en accomplissant des missions.",
+    players: "4-12",
+    duration: "30-60 min",
+    difficulty: "Moyen",
+    category: "Bluff",
+    emoji: "🕵️‍♂️",
+    rules:
+      "Chaque joueur reçoit un rôle secret. Les joueurs doivent accomplir des missions sans se faire découvrir. L'Undercover doit semer la confusion et éviter d'être démasqué. À la fin, les joueurs votent pour éliminer un suspect.",
+    materials: ["Cartes de rôles", "Liste de missions"],
+    tips: [
+      "Soyez attentif aux comportements des autres joueurs",
+      "Utilisez des indices subtils pour communiquer avec votre équipe",
+      "Ne soyez pas trop agressif dans vos accusations",
+    ],
+    href: "/play/undercover",
+    minPlayers: 3,
   },
 ];
 

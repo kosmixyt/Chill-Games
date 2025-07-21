@@ -434,7 +434,7 @@ export default function PlayersPage() {
         )}
 
         {/* Bouton Lancer la partie */}
-        {selectedPlayers.length >= 2 && (
+        {selectedPlayers.length >= Game!.minPlayers && (
           <div className="mt-12 text-center">
             <button
               onClick={() => {

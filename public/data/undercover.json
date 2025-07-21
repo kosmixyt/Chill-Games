@@ -1,0 +1,142 @@
+{
+  "sets": [
+    {
+      "id": 1,
+      "civilian": "Pizza",
+      "undercover": "Burger",
+      "difficulty": "facile"
+    },
+    {
+      "id": 2,
+      "civilian": "Chat",
+      "undercover": "Chien",
+      "difficulty": "facile"
+    },
+    {
+      "id": 3,
+      "civilian": "Été",
+      "undercover": "Hiver",
+      "difficulty": "facile"
+    },
+    {
+      "id": 4,
+      "civilian": "Coca",
+      "undercover": "Pepsi",
+      "difficulty": "facile"
+    },
+    {
+      "id": 5,
+      "civilian": "iPhone",
+      "undercover": "Samsung",
+      "difficulty": "facile"
+    },
+    {
+      "id": 6,
+      "civilian": "Voiture",
+      "undercover": "Moto",
+      "difficulty": "facile"
+    },
+    {
+      "id": 7,
+      "civilian": "Plage",
+      "undercover": "Montagne",
+      "difficulty": "facile"
+    },
+    {
+      "id": 8,
+      "civilian": "Football",
+      "undercover": "Basketball",
+      "difficulty": "facile"
+    },
+    {
+      "id": 9,
+      "civilian": "Livre",
+      "undercover": "Film",
+      "difficulty": "moyen"
+    },
+    {
+      "id": 10,
+      "civilian": "Professeur",
+      "undercover": "Étudiant",
+      "difficulty": "moyen"
+    },
+    {
+      "id": 11,
+      "civilian": "Dentiste",
+      "undercover": "Médecin",
+      "difficulty": "moyen"
+    },
+    {
+      "id": 12,
+      "civilian": "Café",
+      "undercover": "Thé",
+      "difficulty": "moyen"
+    },
+    {
+      "id": 13,
+      "civilian": "Acteur",
+      "undercover": "Chanteur",
+      "difficulty": "moyen"
+    },
+    {
+      "id": 14,
+      "civilian": "Piscine",
+      "undercover": "Sauna",
+      "difficulty": "moyen"
+    },
+    {
+      "id": 15,
+      "civilian": "Escalier",
+      "undercover": "Ascenseur",
+      "difficulty": "moyen"
+    },
+    {
+      "id": 16,
+      "civilian": "Mariage",
+      "undercover": "Enterrement",
+      "difficulty": "difficile"
+    },
+    {
+      "id": 17,
+      "civilian": "Vampire",
+      "undercover": "Zombie",
+      "difficulty": "difficile"
+    },
+    {
+      "id": 18,
+      "civilian": "Philosophie",
+      "undercover": "Psychologie",
+      "difficulty": "difficile"
+    },
+    {
+      "id": 19,
+      "civilian": "Optimiste",
+      "undercover": "Pessimiste",
+      "difficulty": "difficile"
+    },
+    {
+      "id": 20,
+      "civilian": "Démocratie",
+      "undercover": "Dictature",
+      "difficulty": "difficile"
+    },
+    {
+      "id": 21,
+      "civilian": "Amnésie",
+      "undercover": "Nostalgie",
+      "difficulty": "difficile"
+    },
+    {
+      "id": 22,
+      "civilian": "Paradoxe",
+      "undercover": "Dilemme",
+      "difficulty": "difficile"
+    },
+    {
+      "id": 23,
+      "civilian": "Intuition",
+      "undercover": "Instinct",
+      "difficulty": "difficile"
+    }
+  ]
+}
