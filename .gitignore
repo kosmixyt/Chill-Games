@@ -20,6 +20,7 @@ next-env.d.ts
 docker-compose.yaml
 actionouverite.json
 
+public/data/*
 # production
 /build
 
