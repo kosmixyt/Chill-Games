@@ -1,0 +1,1334 @@
+{
+  "facile": {
+    "actions": [
+      { "id": 1, "text": "Fais 10 pompes" },
+      { "id": 2, "text": "Chante une chanson pendant 30 secondes" },
+      { "id": 3, "text": "Imite un animal pendant 1 minute" },
+      { "id": 4, "text": "Raconte une blague" },
+      { "id": 5, "text": "Danse pendant 30 secondes" },
+      { "id": 6, "text": "Fais 5 tours sur toi-même" },
+      { "id": 7, "text": "Dis l'alphabet à l'envers" },
+      { "id": 8, "text": "Imite quelqu'un dans la pièce" },
+      { "id": 49, "text": "Fais des jumping jacks pendant 1 minute" },
+      { "id": 50, "text": "Récite un poème que tu connais" },
+      { "id": 51, "text": "Marche comme un pingouin pendant 30 secondes" },
+      { "id": 52, "text": "Fais semblant d'être un robot" },
+      { "id": 53, "text": "Compte de 1 à 20 en anglais" },
+      { "id": 54, "text": "Imite le cri d'un coq" },
+      { "id": 55, "text": "Fais la statue pendant 2 minutes" },
+      { "id": 56, "text": "Raconte ton plus beau souvenir d'enfance" },
+      {
+        "id": 57,
+        "text": "Mime quelqu'un qui mange quelque chose de très chaud"
+      },
+      { "id": 58, "text": "Fais des grimaces pendant 1 minute" },
+      { "id": 59, "text": "Parle comme un bébé pendant 2 minutes" },
+      { "id": 60, "text": "Imite ta célébrité préférée" },
+      { "id": 61, "text": "Fais 15 squats" },
+      { "id": 62, "text": "Raconte une histoire inventée sur place" },
+      { "id": 63, "text": "Mime que tu conduis une voiture" },
+      { "id": 64, "text": "Fais le moonwalk" },
+      { "id": 65, "text": "Imite un professeur strict" },
+      { "id": 66, "text": "Fais semblant de nager pendant 30 secondes" },
+      { "id": 67, "text": "Récite les jours de la semaine à l'envers" },
+      { "id": 68, "text": "Fais le poirier contre un mur" },
+      { "id": 69, "text": "Imite quelqu'un qui a très froid" },
+      { "id": 70, "text": "Chante l'hymne national" },
+      { "id": 71, "text": "Fais des étirements bizarres" },
+      { "id": 72, "text": "Raconte ta journée comme si c'était épique" },
+      { "id": 73, "text": "Imite un commentateur sportif" },
+      { "id": 74, "text": "Fais semblant d'être un chef cuisinier" },
+      { "id": 75, "text": "Marche à quatre pattes pendant 1 minute" },
+      { "id": 76, "text": "Raconte une blague avec différents accents" },
+      { "id": 77, "text": "Fais du yoga pendant 2 minutes" },
+      { "id": 78, "text": "Imite quelqu'un qui découvre une araignée" },
+      { "id": 79, "text": "Chante en play-back une chanson connue" },
+      { "id": 80, "text": "Fais des mouvements de danse des années 80" },
+      {
+        "id": 81,
+        "text": "Raconte l'intrigue de ton film préféré en 1 minute"
+      },
+      { "id": 82, "text": "Imite un vendeur enthousiaste" },
+      { "id": 83, "text": "Fais semblant de jouer d'un instrument" },
+      { "id": 84, "text": "Marche en arrière pendant 30 secondes" },
+      { "id": 85, "text": "Raconte une histoire d'horreur pas effrayante" },
+      { "id": 86, "text": "Imite quelqu'un qui mange quelque chose d'acide" },
+      { "id": 87, "text": "Fais des abdos pendant 1 minute" },
+      { "id": 88, "text": "Chante une berceuse" },
+      { "id": 89, "text": "Imite un mannequin défilant" },
+      { "id": 90, "text": "Fais semblant d'être un superhéros" },
+      { "id": 91, "text": "Raconte ta matinée comme un bulletin météo" },
+      { "id": 92, "text": "Imite quelqu'un qui essaie de tuer une mouche" },
+      { "id": 93, "text": "Fais de la corde à sauter imaginaire" },
+      { "id": 94, "text": "Parle en rimant pendant 2 minutes" },
+      { "id": 95, "text": "Imite un chat qui a peur de l'eau" },
+      { "id": 96, "text": "Fais des pompes sur les genoux" },
+      { "id": 97, "text": "Raconte ton rêve le plus bizarre" },
+      { "id": 98, "text": "Imite quelqu'un qui goûte du vin" },
+      { "id": 99, "text": "Fais une pyramide humaine (si possible)" },
+      { "id": 100, "text": "Chante une chanson de Disney" },
+      { "id": 101, "text": "Imite un journaliste de télévision" },
+      { "id": 102, "text": "Fais semblant de pêcher" },
+      { "id": 103, "text": "Raconte une blague de papa" },
+      { "id": 104, "text": "Imite quelqu'un qui lit un livre passionnant" },
+      { "id": 105, "text": "Fais des mouvements de tai-chi" },
+      { "id": 106, "text": "Parle comme un pirate pendant 3 minutes" },
+      { "id": 107, "text": "Imite un chien qui veut sortir" },
+      { "id": 108, "text": "Fais semblant d'escalader une montagne" },
+      { "id": 109, "text": "Raconte l'histoire des trois petits cochons" },
+      { "id": 110, "text": "Imite quelqu'un qui reçoit une bonne nouvelle" },
+      { "id": 111, "text": "Fais du hula-hoop imaginaire" },
+      { "id": 112, "text": "Chante une chanson d'enfance" },
+      { "id": 113, "text": "Imite un pingouin qui glisse" },
+      { "id": 114, "text": "Fais semblant de jouer au tennis" },
+      {
+        "id": 115,
+        "text": "Raconte ton film d'horreur préféré comme une comédie"
+      },
+      { "id": 116, "text": "Imite quelqu'un qui mange pour la première fois" },
+      { "id": 117, "text": "Fais des étirements de chat" },
+      { "id": 118, "text": "Parle en chuchotant pendant 5 minutes" },
+      { "id": 119, "text": "Imite un oiseau qui apprend à voler" },
+      { "id": 120, "text": "Fais semblant de jongler" },
+      {
+        "id": 121,
+        "text": "Raconte une histoire avec seulement des questions"
+      },
+      { "id": 122, "text": "Imite quelqu'un qui découvre la neige" },
+      { "id": 123, "text": "Fais de la planche pendant 1 minute" },
+      { "id": 124, "text": "Chante l'alphabet" },
+      { "id": 125, "text": "Imite un extraterrestre découvrant la Terre" },
+      { "id": 126, "text": "Fais semblant de skier" },
+      { "id": 127, "text": "Raconte ta journée comme un conte de fées" },
+      { "id": 128, "text": "Imite quelqu'un qui assemble un meuble IKEA" },
+      { "id": 129, "text": "Fais des jumping jacks en rythme" },
+      { "id": 130, "text": "Parle comme un robot pendant 3 minutes" },
+      { "id": 131, "text": "Imite un koala endormi" },
+      { "id": 132, "text": "Fais semblant de voler comme Superman" },
+      { "id": 133, "text": "Raconte l'histoire du Petit Chaperon Rouge" },
+      {
+        "id": 134,
+        "text": "Imite quelqu'un qui mange quelque chose de très sucré"
+      },
+      { "id": 135, "text": "Fais des mouvements de danse classique" },
+      { "id": 136, "text": "Chante en faisant des vocalises" },
+      { "id": 137, "text": "Imite un mime dans une boîte" },
+      { "id": 138, "text": "Fais semblant de jouer au basketball" },
+      { "id": 139, "text": "Raconte ton week-end idéal" },
+      { "id": 140, "text": "Imite quelqu'un qui regarde un match passionnant" },
+      { "id": 141, "text": "Fais des mouvements de breakdance simples" },
+      { "id": 142, "text": "Parle en exagérant tes expressions faciales" },
+      { "id": 143, "text": "Imite un éléphant qui se douche" },
+      { "id": 144, "text": "Fais semblant de conduire une moto" },
+      { "id": 145, "text": "Raconte une aventure imaginaire" },
+      {
+        "id": 146,
+        "text": "Imite quelqu'un qui essaie de résoudre un Rubik's Cube"
+      },
+      { "id": 147, "text": "Fais des mouvements de natation" },
+      { "id": 148, "text": "Chante une chanson en inventant les paroles" },
+      { "id": 149, "text": "Imite un pingouin qui danse" },
+      { "id": 150, "text": "Fais semblant de faire du vélo" },
+      { "id": 151, "text": "Raconte l'histoire de Cendrillon en 2 minutes" },
+      { "id": 152, "text": "Imite quelqu'un qui découvre un trésor" },
+      { "id": 153, "text": "Fais des mouvements de kung-fu" },
+      { "id": 154, "text": "Parle en ne utilisant que des superlatifs" },
+      { "id": 155, "text": "Imite un singe qui mange une banane" },
+      { "id": 156, "text": "Fais semblant de jouer de la guitare" },
+      {
+        "id": 157,
+        "text": "Raconte ton plat préféré comme s'il était magique"
+      },
+      {
+        "id": 158,
+        "text": "Imite quelqu'un qui essaie de comprendre la technologie"
+      },
+      { "id": 159, "text": "Fais des mouvements de cheerleader" },
+      { "id": 160, "text": "Chante une chanson de Noël" },
+      { "id": 161, "text": "Imite un chat qui chasse sa queue" },
+      { "id": 162, "text": "Fais semblant de faire de l'équitation" },
+      { "id": 163, "text": "Raconte une histoire où tu es le héros" },
+      {
+        "id": 164,
+        "text": "Imite quelqu'un qui essaie d'attraper un papillon"
+      },
+      { "id": 165, "text": "Fais des étirements de yoga" },
+      { "id": 166, "text": "Parle en imitant un accent étranger" },
+      { "id": 167, "text": "Imite une girafe qui boit" },
+      { "id": 168, "text": "Fais semblant de jouer au golf" },
+      { "id": 169, "text": "Raconte ton voyage de rêve" },
+      {
+        "id": 170,
+        "text": "Imite quelqu'un qui découvre qu'il a gagné à la loterie"
+      },
+      { "id": 171, "text": "Fais des mouvements de danse folklorique" },
+      { "id": 172, "text": "Chante en faisant du beatboxing" },
+      { "id": 173, "text": "Imite un ours qui hiberne" },
+      { "id": 174, "text": "Fais semblant de faire du surf" },
+      { "id": 175, "text": "Raconte l'histoire de Blanche-Neige" },
+      { "id": 176, "text": "Imite quelqu'un qui goûte un plat exotique" },
+      { "id": 177, "text": "Fais des mouvements de danse hip-hop" },
+      { "id": 178, "text": "Parle comme un présentateur télé" },
+      { "id": 179, "text": "Imite un lion qui rugit" },
+      { "id": 180, "text": "Fais semblant de faire de la boxe" },
+      { "id": 181, "text": "Raconte ta matière préférée à l'école" },
+      { "id": 182, "text": "Imite quelqu'un qui essaie de rester éveillé" },
+      { "id": 183, "text": "Fais des mouvements de capoeira" },
+      { "id": 184, "text": "Chante une chanson populaire" },
+      { "id": 185, "text": "Imite un flamant rose" },
+      { "id": 186, "text": "Fais semblant de faire du patin à glace" },
+      { "id": 187, "text": "Raconte une blague sans fin" },
+      { "id": 188, "text": "Imite quelqu'un qui reçoit un cadeau surprise" },
+      { "id": 189, "text": "Fais des mouvements de danse orientale" },
+      { "id": 190, "text": "Parle en utilisant seulement des métaphores" },
+      { "id": 191, "text": "Imite un cheval qui galope" },
+      { "id": 192, "text": "Fais semblant de faire de l'escalade" },
+      { "id": 193, "text": "Raconte ton anniversaire idéal" },
+      {
+        "id": 194,
+        "text": "Imite quelqu'un qui essaie de réparer quelque chose"
+      },
+      { "id": 195, "text": "Fais des mouvements de salsa" },
+      { "id": 196, "text": "Chante une chanson romantique" },
+      { "id": 197, "text": "Imite un poussin qui sort de l'œuf" },
+      { "id": 198, "text": "Fais semblant de faire du kayak" },
+      { "id": 199, "text": "Raconte l'histoire de la Belle et la Bête" },
+      {
+        "id": 200,
+        "text": "Imite quelqu'un qui essaie de comprendre une carte"
+      }
+    ],
+    "verites": [
+      { "id": 9, "text": "Quel est ton film préféré ?" },
+      { "id": 10, "text": "Quelle est ta couleur préférée ?" },
+      { "id": 11, "text": "Quel est ton plat préféré ?" },
+      { "id": 12, "text": "Quelle est ta chanson préférée en ce moment ?" },
+      { "id": 13, "text": "Quel est ton animal préféré ?" },
+      { "id": 14, "text": "Quel est ton hobby favori ?" },
+      { "id": 15, "text": "Quelle est ta saison préférée ?" },
+      { "id": 16, "text": "Quel est ton rêve d'enfant ?" },
+      { "id": 201, "text": "Quel est ton livre préféré ?" },
+      { "id": 202, "text": "Quelle est ta série TV préférée ?" },
+      { "id": 203, "text": "Quel est ton sport préféré ?" },
+      { "id": 204, "text": "Quelle est ta destination de voyage préférée ?" },
+      { "id": 205, "text": "Quel est ton jeu vidéo préféré ?" },
+      { "id": 206, "text": "Quelle est ta matière scolaire préférée ?" },
+      { "id": 207, "text": "Quel est ton dessert préféré ?" },
+      { "id": 208, "text": "Quelle est ta boisson préférée ?" },
+      { "id": 209, "text": "Quel est ton jour de la semaine préféré ?" },
+      { "id": 210, "text": "Quelle est ta fête préférée ?" },
+      { "id": 211, "text": "Quel est ton superhéros préféré ?" },
+      { "id": 212, "text": "Quelle est ta marque de vêtements préférée ?" },
+      { "id": 213, "text": "Quel est ton parfum de glace préféré ?" },
+      { "id": 214, "text": "Quelle est ta application mobile préférée ?" },
+      { "id": 215, "text": "Quel est ton genre musical préféré ?" },
+      {
+        "id": 216,
+        "text": "Quelle est ta émission de télé-réalité préférée ?"
+      },
+      { "id": 217, "text": "Quel est ton acteur préféré ?" },
+      { "id": 218, "text": "Quelle est ton actrice préférée ?" },
+      { "id": 219, "text": "Quel est ton réalisateur préféré ?" },
+      { "id": 220, "text": "Quelle est ta voiture de rêve ?" },
+      { "id": 221, "text": "Quel est ton nom préféré ?" },
+      { "id": 222, "text": "Quelle est ta tradition familiale préférée ?" },
+      { "id": 223, "text": "Quel est ton monument préféré ?" },
+      { "id": 224, "text": "Quelle est ta fleur préférée ?" },
+      { "id": 225, "text": "Quel est ton parfum préféré ?" },
+      { "id": 226, "text": "Quelle est ta citation préférée ?" },
+      { "id": 227, "text": "Quel est ton documentaire préféré ?" },
+      { "id": 228, "text": "Quelle est ta planète préférée ?" },
+      { "id": 229, "text": "Quel est ton instrument de musique préféré ?" },
+      { "id": 230, "text": "Quelle est ta danse préférée ?" },
+      { "id": 231, "text": "Quel est ton podcast préféré ?" },
+      { "id": 232, "text": "Quelle est ta chaîne YouTube préférée ?" },
+      { "id": 233, "text": "Quel est ton emoji préféré ?" },
+      { "id": 234, "text": "Quelle est ta pizza préférée ?" },
+      { "id": 235, "text": "Quel est ton fruit préféré ?" },
+      { "id": 236, "text": "Quelle est ta légume préféré ?" },
+      { "id": 237, "text": "Quel est ton fromage préféré ?" },
+      { "id": 238, "text": "Quelle est ta pâtisserie préférée ?" },
+      { "id": 239, "text": "Quel est ton café préféré ?" },
+      { "id": 240, "text": "Quelle est ta tisane préférée ?" },
+      { "id": 241, "text": "Quel est ton sandwich préféré ?" },
+      { "id": 242, "text": "Quelle est ta soupe préférée ?" },
+      { "id": 243, "text": "Quel est ton petit-déjeuner préféré ?" },
+      { "id": 244, "text": "Quelle est ta activité de week-end préférée ?" },
+      { "id": 245, "text": "Quel est ton moment de la journée préféré ?" },
+      { "id": 246, "text": "Quelle est ta température idéale ?" },
+      { "id": 247, "text": "Quel est ton style vestimentaire préféré ?" },
+      { "id": 248, "text": "Quelle est ta coiffure préférée ?" },
+      { "id": 249, "text": "Quel est ton maquillage préféré ?" },
+      { "id": 250, "text": "Quelle est ta chaussure préférée ?" },
+      { "id": 251, "text": "Quel est ton accessoire préféré ?" },
+      { "id": 252, "text": "Quelle est ta décoration préférée ?" },
+      { "id": 253, "text": "Quel est ton meuble préféré ?" },
+      { "id": 254, "text": "Quelle est ta pièce de la maison préférée ?" },
+      { "id": 255, "text": "Quel est ton type de maison préféré ?" },
+      { "id": 256, "text": "Quelle est ta ville préférée ?" },
+      { "id": 257, "text": "Quel est ton pays préféré ?" },
+      { "id": 258, "text": "Quelle est ta langue préférée ?" },
+      { "id": 259, "text": "Quel est ton accent préféré ?" },
+      { "id": 260, "text": "Quelle est ta époque historique préférée ?" },
+      { "id": 261, "text": "Quel est ton personnage historique préféré ?" },
+      { "id": 262, "text": "Quelle est ta invention préférée ?" },
+      {
+        "id": 263,
+        "text": "Quel est ton élément préféré (feu, eau, air, terre) ?"
+      },
+      { "id": 264, "text": "Quelle est ta pierre précieuse préférée ?" },
+      { "id": 265, "text": "Quel est ton métal préféré ?" },
+      { "id": 266, "text": "Quelle est ta texture préférée ?" },
+      { "id": 267, "text": "Quel est ton son préféré ?" },
+      { "id": 268, "text": "Quelle est ta odeur préférée ?" },
+      { "id": 269, "text": "Quel est ton goût préféré ?" },
+      { "id": 270, "text": "Quelle est ta sensation préférée ?" },
+      { "id": 271, "text": "Quel est ton rire préféré ?" },
+      { "id": 272, "text": "Quelle est ta expression préférée ?" },
+      { "id": 273, "text": "Quel est ton geste préféré ?" },
+      { "id": 274, "text": "Quelle est ta posture préférée ?" },
+      { "id": 275, "text": "Quel est ton exercice préféré ?" },
+      { "id": 276, "text": "Quelle est ta position de sommeil préférée ?" },
+      { "id": 277, "text": "Quel est ton type de rêve préféré ?" },
+      { "id": 278, "text": "Quelle est ta heure de coucher préférée ?" },
+      { "id": 279, "text": "Quel est ton type de réveil préféré ?" },
+      { "id": 280, "text": "Quelle est ta façon de se détendre préférée ?" },
+      { "id": 281, "text": "Quel est ton type de vacances préféré ?" },
+      { "id": 282, "text": "Quelle est ta activité aquatique préférée ?" },
+      { "id": 283, "text": "Quel est ton type de piscine préféré ?" },
+      { "id": 284, "text": "Quelle est ta plage préférée ?" },
+      { "id": 285, "text": "Quel est ton type de montagne préféré ?" },
+      { "id": 286, "text": "Quelle est ta forêt préférée ?" },
+      { "id": 287, "text": "Quel est ton type de lac préféré ?" },
+      { "id": 288, "text": "Quelle est ta rivière préférée ?" },
+      { "id": 289, "text": "Quel est ton type de jardin préféré ?" },
+      { "id": 290, "text": "Quelle est ta plante préférée ?" },
+      { "id": 291, "text": "Quel est ton arbre préféré ?" },
+      { "id": 292, "text": "Quelle est ta herbe préférée ?" },
+      { "id": 293, "text": "Quel est ton insecte préféré ?" },
+      { "id": 294, "text": "Quelle est ta araignée préférée ?" },
+      { "id": 295, "text": "Quel est ton oiseau préféré ?" },
+      { "id": 296, "text": "Quelle est ta créature marine préférée ?" },
+      { "id": 297, "text": "Quel est ton reptile préféré ?" },
+      { "id": 298, "text": "Quelle est ta race de chien préférée ?" },
+      { "id": 299, "text": "Quel est ton type de chat préféré ?" },
+      { "id": 300, "text": "Quelle est ta créature mythologique préférée ?" },
+      { "id": 301, "text": "Quel est ton dinosaure préféré ?" },
+      { "id": 302, "text": "Quelle est ta constellation préférée ?" },
+      { "id": 303, "text": "Quel est ton phénomène météorologique préféré ?" },
+      { "id": 304, "text": "Quelle est ta forme de nuage préférée ?" },
+      { "id": 305, "text": "Quel est ton type de pluie préféré ?" },
+      { "id": 306, "text": "Quelle est ta forme de flocon préférée ?" },
+      { "id": 307, "text": "Quel est ton type de vent préféré ?" },
+      { "id": 308, "text": "Quelle est ta température d'eau préférée ?" },
+      { "id": 309, "text": "Quel est ton type de feu préféré ?" },
+      { "id": 310, "text": "Quelle est ta flamme préférée ?" },
+      { "id": 311, "text": "Quel est ton type de lumière préféré ?" },
+      { "id": 312, "text": "Quelle est ta ombre préférée ?" },
+      { "id": 313, "text": "Quel est ton reflet préféré ?" },
+      { "id": 314, "text": "Quelle est ta transparence préférée ?" },
+      { "id": 315, "text": "Quel est ton type de miroir préféré ?" },
+      { "id": 316, "text": "Quelle est ta forme géométrique préférée ?" },
+      { "id": 317, "text": "Quel est ton chiffre préféré ?" },
+      { "id": 318, "text": "Quelle est ta lettre préférée ?" },
+      { "id": 319, "text": "Quel est ton mot préféré ?" },
+      { "id": 320, "text": "Quelle est ta phrase préférée ?" },
+      { "id": 321, "text": "Quel est ton type d'histoire préféré ?" },
+      { "id": 322, "text": "Quelle est ta morale préférée ?" },
+      { "id": 323, "text": "Quel est ton proverbe préféré ?" },
+      { "id": 324, "text": "Quelle est ta leçon de vie préférée ?" },
+      { "id": 325, "text": "Quel est ton conseil préféré ?" },
+      { "id": 326, "text": "Quelle est ta sagesse préférée ?" },
+      { "id": 327, "text": "Quel est ton type de sourire préféré ?" },
+      { "id": 328, "text": "Quelle est ta larme préférée ?" },
+      { "id": 329, "text": "Quel est ton type de câlin préféré ?" },
+      { "id": 330, "text": "Quelle est ta façon de dire bonjour préférée ?" },
+      { "id": 331, "text": "Quel est ton type d'au revoir préféré ?" },
+      { "id": 332, "text": "Quelle est ta façon de remercier préférée ?" },
+      { "id": 333, "text": "Quel est ton compliment préféré ?" },
+      { "id": 334, "text": "Quelle est ta critique constructive préférée ?" },
+      { "id": 335, "text": "Quel est ton encouragement préféré ?" },
+      { "id": 336, "text": "Quelle est ta motivation préférée ?" },
+      { "id": 337, "text": "Quel est ton type de récompense préféré ?" },
+      { "id": 338, "text": "Quelle est ta célébration préférée ?" },
+      { "id": 339, "text": "Quel est ton rituel préféré ?" },
+      { "id": 340, "text": "Quelle est ta cérémonie préférée ?" },
+      { "id": 341, "text": "Quel est ton type de fête préféré ?" },
+      { "id": 342, "text": "Quelle est ta surprise préférée ?" },
+      { "id": 343, "text": "Quel est ton mystère préféré ?" },
+      { "id": 344, "text": "Quelle est ta énigme préférée ?" },
+      { "id": 345, "text": "Quel est ton puzzle préféré ?" },
+      { "id": 346, "text": "Quelle est ta devinette préférée ?" },
+      { "id": 347, "text": "Quel est ton jeu de mots préféré ?" },
+      { "id": 348, "text": "Quelle est ta blague préférée ?" },
+      { "id": 349, "text": "Quel est ton type d'humour préféré ?" },
+      { "id": 350, "text": "Quelle est ta comédie préférée ?" },
+      { "id": 351, "text": "Quel est ton comédien préféré ?" },
+      { "id": 352, "text": "Quelle est ta comédienne préférée ?" },
+      { "id": 353, "text": "Quel est ton sketch préféré ?" },
+      { "id": 354, "text": "Quelle est ta parodie préférée ?" },
+      { "id": 355, "text": "Quel est ton mème préféré ?" },
+      { "id": 356, "text": "Quelle est ta tendance internet préférée ?" },
+      { "id": 357, "text": "Quel est ton réseau social préféré ?" },
+      { "id": 358, "text": "Quelle est ta façon de communiquer préférée ?" },
+      { "id": 359, "text": "Quel est ton type de message préféré ?" },
+      { "id": 360, "text": "Quelle est ta notification préférée ?" },
+      { "id": 361, "text": "Quel est ton type d'appel préféré ?" },
+      { "id": 362, "text": "Quelle est ta conversation préférée ?" },
+      { "id": 363, "text": "Quel est ton débat préféré ?" },
+      { "id": 364, "text": "Quelle est ta discussion préférée ?" },
+      { "id": 365, "text": "Quel est ton sujet de conversation préféré ?" },
+      { "id": 366, "text": "Quelle est ta question préférée ?" },
+      { "id": 367, "text": "Quel est ton type de réponse préféré ?" },
+      { "id": 368, "text": "Quelle est ta explication préférée ?" },
+      { "id": 369, "text": "Quel est ton type d'apprentissage préféré ?" },
+      { "id": 370, "text": "Quelle est ta méthode d'étude préférée ?" },
+      { "id": 371, "text": "Quel est ton type d'enseignement préféré ?" },
+      { "id": 372, "text": "Quelle est ta leçon préférée ?" },
+      { "id": 373, "text": "Quel est ton cours préféré ?" },
+      { "id": 374, "text": "Quelle est ta formation préférée ?" },
+      { "id": 375, "text": "Quel est ton atelier préféré ?" },
+      { "id": 376, "text": "Quelle est ta conférence préférée ?" },
+      { "id": 377, "text": "Quel est ton séminaire préféré ?" },
+      { "id": 378, "text": "Quelle est ta masterclass préférée ?" },
+      { "id": 379, "text": "Quel est ton tutoriel préféré ?" },
+      { "id": 380, "text": "Quelle est ta démonstration préférée ?" },
+      { "id": 381, "text": "Quel est ton exemple préféré ?" },
+      { "id": 382, "text": "Quelle est ta illustration préférée ?" },
+      { "id": 383, "text": "Quel est ton schéma préféré ?" },
+      { "id": 384, "text": "Quelle est ta carte préférée ?" },
+      { "id": 385, "text": "Quel est ton plan préféré ?" },
+      { "id": 386, "text": "Quelle est ta stratégie préférée ?" },
+      { "id": 387, "text": "Quel est ton objectif préféré ?" },
+      { "id": 388, "text": "Quelle est ta ambition préférée ?" },
+      { "id": 389, "text": "Quel est ton rêve préféré ?" },
+      { "id": 390, "text": "Quelle est ta aspiration préférée ?" },
+      { "id": 391, "text": "Quel est ton désir préféré ?" },
+      { "id": 392, "text": "Quelle est ta envie préférée ?" },
+      { "id": 393, "text": "Quel est ton souhait préféré ?" },
+      { "id": 394, "text": "Quelle est ta espérance préférée ?" },
+      { "id": 395, "text": "Quel est ton espoir préféré ?" },
+      { "id": 396, "text": "Quelle est ta foi préférée ?" },
+      { "id": 397, "text": "Quel est ton type de croyance préféré ?" },
+      { "id": 398, "text": "Quelle est ta conviction préférée ?" },
+      { "id": 399, "text": "Quel est ton principe préféré ?" },
+      { "id": 400, "text": "Quelle est ta valeur préférée ?" }
+    ]
+  },
+  "moyen": {
+    "actions": [
+      { "id": 17, "text": "Mange quelque chose de piquant" },
+      { "id": 18, "text": "Appelle un ami et dis-lui que tu l'aimes" },
+      { "id": 19, "text": "Laisse quelqu'un te maquiller les yeux fermés" },
+      { "id": 20, "text": "Fais le tour de la maison en courant" },
+      { "id": 21, "text": "Mange une cuillère de moutarde" },
+      { "id": 22, "text": "Parle avec un accent pendant 5 minutes" },
+      { "id": 23, "text": "Fais 20 squats" },
+      { "id": 24, "text": "Raconte une histoire embarrassante" },
+      { "id": 401, "text": "Mange un citron entier" },
+      {
+        "id": 402,
+        "text": "Chante une chanson d'amour à quelqu'un dans la pièce"
+      },
+      { "id": 403, "text": "Fais 30 pompes d'affilée" },
+      { "id": 404, "text": "Raconte ton secret le moins embarrassant" },
+      { "id": 405, "text": "Danse sans musique pendant 2 minutes" },
+      { "id": 406, "text": "Mange quelque chose avec les yeux bandés" },
+      {
+        "id": 407,
+        "text": "Appelle un restaurant et commande quelque chose de bizarre"
+      },
+      { "id": 408, "text": "Fais le poirier pendant 30 secondes" },
+      {
+        "id": 409,
+        "text": "Raconte ta première impression sur chaque personne ici"
+      },
+      { "id": 410, "text": "Imite ton professeur le plus strict" },
+      { "id": 411, "text": "Bois un mélange de trois boissons différentes" },
+      { "id": 412, "text": "Fais 50 jumping jacks" },
+      { "id": 413, "text": "Raconte un mensonge que tu as dit récemment" },
+      { "id": 414, "text": "Chante l'hymne national en faisant des gestes" },
+      { "id": 415, "text": "Mange une cuillère de vinaigre" },
+      { "id": 416, "text": "Fais des compliments sincères à tout le monde" },
+      { "id": 417, "text": "Imite ton parent quand il est en colère" },
+      { "id": 418, "text": "Bois de l'eau salée" },
+      { "id": 419, "text": "Raconte ton rendez-vous le plus gênant" },
+      { "id": 420, "text": "Fais la planche pendant 2 minutes" },
+      { "id": 421, "text": "Appelle ton ex et dis bonjour" },
+      {
+        "id": 422,
+        "text": "Mange du beurre d'arachide et de la confiture avec les doigts"
+      },
+      {
+        "id": 423,
+        "text": "Raconte une fois où tu as été pris en flagrant délit"
+      },
+      { "id": 424, "text": "Chante en faisant du beatboxing" },
+      { "id": 425, "text": "Fais 40 squats en comptant à voix haute" },
+      { "id": 426, "text": "Raconte ta plus grosse gaffe" },
+      { "id": 427, "text": "Imite quelqu'un qui découvre une araignée géante" },
+      { "id": 428, "text": "Bois un smoothie bizarre fait par le groupe" },
+      {
+        "id": 429,
+        "text": "Fais du yoga en position difficile pendant 3 minutes"
+      },
+      { "id": 430, "text": "Raconte ton rêve le plus étrange" },
+      { "id": 431, "text": "Chante une chanson triste en souriant" },
+      {
+        "id": 432,
+        "text": "Mange quelque chose de très sucré puis de très salé"
+      },
+      {
+        "id": 433,
+        "text": "Raconte une histoire où tu as menti à tes parents"
+      },
+      { "id": 434, "text": "Fais des burpees pendant 2 minutes" },
+      { "id": 435, "text": "Imite ton pire professeur" },
+      { "id": 436, "text": "Bois du jus de cornichon" },
+      { "id": 437, "text": "Raconte ta plus grande déception amoureuse" },
+      { "id": 438, "text": "Fais le tour du pâté de maisons en courant" },
+      { "id": 439, "text": "Chante une berceuse à voix très haute" },
+      { "id": 440, "text": "Mange des épices pures" },
+      { "id": 441, "text": "Raconte un moment où tu as eu très honte" },
+      { "id": 442, "text": "Fais des abdos pendant 3 minutes" },
+      { "id": 443, "text": "Imite ton animal de compagnie" },
+      { "id": 444, "text": "Bois de l'eau gazeuse avec du sel" },
+      { "id": 445, "text": "Raconte ta pire dispute avec un ami" },
+      { "id": 446, "text": "Fais de la corde à sauter pendant 5 minutes" },
+      { "id": 447, "text": "Chante en imitant un opéra" },
+      { "id": 448, "text": "Mange quelque chose d'amer" },
+      { "id": 449, "text": "Raconte une fois où tu as triché" },
+      { "id": 450, "text": "Fais des étirements extrêmes" },
+      {
+        "id": 451,
+        "text": "Imite quelqu'un qui reçoit de mauvaises nouvelles"
+      },
+      { "id": 452, "text": "Bois un mélange de lait et de jus de citron" },
+      { "id": 453, "text": "Raconte ton pire rendez-vous" },
+      { "id": 454, "text": "Fais des pompes en comptant en anglais" },
+      {
+        "id": 455,
+        "text": "Chante une chanson en inventant les paroles sur le moment"
+      },
+      { "id": 456, "text": "Mange de la mayonnaise pure" },
+      { "id": 457, "text": "Raconte une situation où tu as eu très peur" },
+      { "id": 458, "text": "Fais du gainage sur le côté" },
+      {
+        "id": 459,
+        "text": "Imite quelqu'un qui apprend une mauvaise nouvelle"
+      },
+      { "id": 460, "text": "Bois du thé très fort sans sucre" },
+      { "id": 461, "text": "Raconte ta plus grosse bêtise d'enfance" },
+      { "id": 462, "text": "Fais des mountain climbers pendant 2 minutes" },
+      {
+        "id": 463,
+        "text": "Chante une chanson d'enfance avec une voix d'adulte sérieux"
+      },
+      { "id": 464, "text": "Mange de la moutarde forte" },
+      { "id": 465, "text": "Raconte une fois où tu as été injustement accusé" },
+      { "id": 466, "text": "Fais des fentes pendant 3 minutes" },
+      {
+        "id": 467,
+        "text": "Imite quelqu'un qui essaie de comprendre la technologie"
+      },
+      { "id": 468, "text": "Bois de l'eau avec du poivre" },
+      { "id": 469, "text": "Raconte ton plus gros malentendu" },
+      { "id": 470, "text": "Fais du cardio sur place pendant 5 minutes" },
+      { "id": 471, "text": "Chante en imitant différents genres musicaux" },
+      { "id": 472, "text": "Mange quelque chose de visqueux" },
+      {
+        "id": 473,
+        "text": "Raconte une fois où tu as été surpris en train de faire quelque chose"
+      },
+      { "id": 474, "text": "Fais des squats sautés" },
+      { "id": 475, "text": "Imite ton enseignant préféré" },
+      { "id": 476, "text": "Bois de l'eau avec du vinaigre" },
+      { "id": 477, "text": "Raconte ta réaction la plus exagérée" },
+      { "id": 478, "text": "Fais de l'exercice en parlant en même temps" },
+      { "id": 479, "text": "Chante une chanson en changeant d'octave" },
+      { "id": 480, "text": "Mange de la nourriture froide" },
+      { "id": 481, "text": "Raconte une fois où tu as été mal compris" },
+      { "id": 482, "text": "Fais des exercices de coordination" },
+      {
+        "id": 483,
+        "text": "Imite quelqu'un qui goûte quelque chose pour la première fois"
+      },
+      { "id": 484, "text": "Bois quelque chose de très chaud" },
+      { "id": 485, "text": "Raconte ton moment le plus gênant en public" },
+      { "id": 486, "text": "Fais des exercices d'équilibre difficiles" },
+      { "id": 487, "text": "Chante une chanson en chuchotant puis en criant" },
+      { "id": 488, "text": "Mange quelque chose avec une texture bizarre" },
+      { "id": 489, "text": "Raconte une situation où tu as paniqué" },
+      { "id": 490, "text": "Fais des exercices de flexibilité" },
+      { "id": 491, "text": "Imite quelqu'un qui essaie de rester calme" },
+      { "id": 492, "text": "Bois un mélange de plusieurs jus" },
+      { "id": 493, "text": "Raconte ton plus gros fou rire inapproprié" },
+      { "id": 494, "text": "Fais des pompes à une main" },
+      { "id": 495, "text": "Chante en imitant différents accents" },
+      { "id": 496, "text": "Mange quelque chose de dur à mâcher" },
+      { "id": 497, "text": "Raconte une fois où tu as été très en colère" },
+      { "id": 498, "text": "Fais des exercices d'agilité" },
+      {
+        "id": 499,
+        "text": "Imite quelqu'un qui essaie de se souvenir de quelque chose"
+      },
+      { "id": 500, "text": "Bois de l'eau avec des épices" }
+    ],
+    "verites": [
+      { "id": 25, "text": "Quel est ton plus gros défaut ?" },
+      {
+        "id": 26,
+        "text": "As-tu déjà menti à tes parents ? À propos de quoi ?"
+      },
+      {
+        "id": 27,
+        "text": "Quelle est la chose la plus embarrassante qui te soit arrivée ?"
+      },
+      { "id": 28, "text": "Qui dans ce groupe trouves-tu le plus drôle ?" },
+      { "id": 29, "text": "Quel est ton plus grand regret ?" },
+      { "id": 30, "text": "Quelle est ta plus grande peur ?" },
+      { "id": 31, "text": "As-tu déjà eu le béguin pour un prof ?" },
+      { "id": 32, "text": "Quel est le mensonge que tu dis le plus souvent ?" },
+      { "id": 501, "text": "Quelle est ta plus grosse insécurité ?" },
+      { "id": 502, "text": "As-tu déjà volé quelque chose ? Quoi ?" },
+      { "id": 503, "text": "Quel est ton plus gros complexe physique ?" },
+      { "id": 504, "text": "Qui dans ce groupe aimerais-tu mieux connaître ?" },
+      { "id": 505, "text": "Quelle est ta plus grande déception ?" },
+      { "id": 506, "text": "As-tu déjà fait semblant d'être malade ?" },
+      { "id": 507, "text": "Quel est ton secret de famille ?" },
+      { "id": 508, "text": "Quelle est ta plus grosse erreur ?" },
+      {
+        "id": 509,
+        "text": "As-tu déjà eu des sentiments pour l'ami(e) de quelqu'un ?"
+      },
+      { "id": 510, "text": "Quel est ton plus gros échec ?" },
+      { "id": 511, "text": "Quelle est ta honte secrète ?" },
+      { "id": 512, "text": "As-tu déjà menti sur ton âge ?" },
+      { "id": 513, "text": "Quel est ton plus gros malentendu ?" },
+      { "id": 514, "text": "Quelle est ta plus grande jalousie ?" },
+      { "id": 515, "text": "As-tu déjà triché à un examen ?" },
+      { "id": 516, "text": "Quel est ton comportement le plus immature ?" },
+      {
+        "id": 517,
+        "text": "Quelle est ta plus grosse crainte irrationnelle ?"
+      },
+      { "id": 518, "text": "As-tu déjà espionné quelqu'un ?" },
+      { "id": 519, "text": "Quel est ton plus gros préjugé ?" },
+      { "id": 520, "text": "Quelle est ta plus grande faiblesse ?" },
+      {
+        "id": 521,
+        "text": "As-tu déjà fait quelque chose de mal sans être pris ?"
+      },
+      { "id": 522, "text": "Quel est ton plus gros tabou ?" },
+      { "id": 523, "text": "Quelle est ta plus grande frustration ?" },
+      { "id": 524, "text": "As-tu déjà menti sur tes qualifications ?" },
+      { "id": 525, "text": "Quel est ton comportement le plus étrange ?" },
+      { "id": 526, "text": "Quelle est ta plus grosse superstition ?" },
+      {
+        "id": 527,
+        "text": "As-tu déjà fait du mal à quelqu'un intentionnellement ?"
+      },
+      { "id": 528, "text": "Quel est ton plus gros vice ?" },
+      { "id": 529, "text": "Quelle est ta plus grande hypocrisie ?" },
+      {
+        "id": 530,
+        "text": "As-tu déjà cassé quelque chose et accusé quelqu'un d'autre ?"
+      },
+      { "id": 531, "text": "Quel est ton côté le plus sombre ?" },
+      { "id": 532, "text": "Quelle est ta plus grande manipulation ?" },
+      { "id": 533, "text": "As-tu déjà lu les messages privés de quelqu'un ?" },
+      { "id": 534, "text": "Quel est ton plus gros défaut de caractère ?" },
+      { "id": 535, "text": "Quelle est ta plus grande lâcheté ?" },
+      { "id": 536, "text": "As-tu déjà dit du mal de ton meilleur ami ?" },
+      { "id": 537, "text": "Quel est ton plus gros mensonge ?" },
+      { "id": 538, "text": "Quelle est ta plus grande trahison ?" },
+      { "id": 539, "text": "As-tu déjà copié sur quelqu'un ?" },
+      { "id": 540, "text": "Quel est ton comportement le plus égoïste ?" },
+      { "id": 541, "text": "Quelle est ta plus grande injustice ?" },
+      { "id": 542, "text": "As-tu déjà blessé quelqu'un par jalousie ?" },
+      { "id": 543, "text": "Quel est ton plus gros complexe d'infériorité ?" },
+      { "id": 544, "text": "Quelle est ta plus grande envie ?" },
+      {
+        "id": 545,
+        "text": "As-tu déjà fait quelque chose sous la pression du groupe ?"
+      },
+      { "id": 546, "text": "Quel est ton plus gros regret sentimental ?" },
+      { "id": 547, "text": "Quelle est ta plus grande fierté secrète ?" },
+      { "id": 548, "text": "As-tu déjà menti sur tes sentiments ?" },
+      { "id": 549, "text": "Quel est ton comportement le plus puéril ?" },
+      { "id": 550, "text": "Quelle est ta plus grande obsession ?" },
+      {
+        "id": 551,
+        "text": "As-tu déjà été méchant avec quelqu'un par frustration ?"
+      },
+      { "id": 552, "text": "Quel est ton plus gros complexe social ?" },
+      { "id": 553, "text": "Quelle est ta plus grande contradiction ?" },
+      { "id": 554, "text": "As-tu déjà profité de la naïveté de quelqu'un ?" },
+      { "id": 555, "text": "Quel est ton comportement le plus impulsif ?" },
+      { "id": 556, "text": "Quelle est ta plus grande rancune ?" },
+      {
+        "id": 557,
+        "text": "As-tu déjà fait semblant de comprendre quelque chose ?"
+      },
+      { "id": 558, "text": "Quel est ton plus gros défaut en amitié ?" },
+      { "id": 559, "text": "Quelle est ta plus grande culpabilité ?" },
+      { "id": 560, "text": "As-tu déjà menti pour éviter les conséquences ?" },
+      {
+        "id": 561,
+        "text": "Quel est ton comportement le plus irresponsable ?"
+      },
+      { "id": 562, "text": "Quelle est ta plus grande anxiété ?" },
+      {
+        "id": 563,
+        "text": "As-tu déjà abandonné quelqu'un qui avait besoin de toi ?"
+      },
+      { "id": 564, "text": "Quel est ton plus gros défaut en amour ?" },
+      { "id": 565, "text": "Quelle est ta plus grande insatisfaction ?" },
+      { "id": 566, "text": "As-tu déjà dit oui alors que tu pensais non ?" },
+      { "id": 567, "text": "Quel est ton comportement le plus destructeur ?" },
+      { "id": 568, "text": "Quelle est ta plus grande solitude ?" },
+      { "id": 569, "text": "As-tu déjà jugé quelqu'un injustement ?" },
+      { "id": 570, "text": "Quel est ton plus gros défaut professionnel ?" },
+      { "id": 571, "text": "Quelle est ta plus grande vulnérabilité ?" },
+      {
+        "id": 572,
+        "text": "As-tu déjà fait quelque chose par pure méchanceté ?"
+      },
+      { "id": 573, "text": "Quel est ton comportement le plus négatif ?" },
+      { "id": 574, "text": "Quelle est ta plus grande amertume ?" },
+      {
+        "id": 575,
+        "text": "As-tu déjà profité de la générosité de quelqu'un ?"
+      },
+      { "id": 576, "text": "Quel est ton plus gros défaut de personnalité ?" },
+      { "id": 577, "text": "Quelle est ta plus grande pression ?" },
+      { "id": 578, "text": "As-tu déjà fait du chantage émotionnel ?" },
+      { "id": 579, "text": "Quel est ton comportement le plus superficiel ?" },
+      {
+        "id": 580,
+        "text": "Quelle est ta plus grande déception en toi-même ?"
+      },
+      { "id": 581, "text": "As-tu déjà menti pour te faire bien voir ?" },
+      { "id": 582, "text": "Quel est ton plus gros défaut relationnel ?" },
+      { "id": 583, "text": "Quelle est ta plus grande incertitude ?" },
+      { "id": 584, "text": "As-tu déjà utilisé quelqu'un ?" },
+      { "id": 585, "text": "Quel est ton comportement le plus égocentrique ?" },
+      { "id": 586, "text": "Quelle est ta plus grande déception amoureuse ?" },
+      { "id": 587, "text": "As-tu déjà fait semblant d'aimer quelque chose ?" },
+      { "id": 588, "text": "Quel est ton plus gros défaut moral ?" },
+      { "id": 589, "text": "Quelle est ta plus grande confusion ?" },
+      { "id": 590, "text": "As-tu déjà trahi la confiance de quelqu'un ?" },
+      { "id": 591, "text": "Quel est ton comportement le plus décevant ?" },
+      {
+        "id": 592,
+        "text": "Quelle est ta plus grande nostalgie douloureuse ?"
+      },
+      { "id": 593, "text": "As-tu déjà fait quelque chose par pure envie ?" },
+      { "id": 594, "text": "Quel est ton plus gros défaut d'empathie ?" },
+      { "id": 595, "text": "Quelle est ta plus grande peur de l'avenir ?" },
+      { "id": 596, "text": "As-tu déjà ignoré quelqu'un qui souffrait ?" },
+      { "id": 597, "text": "Quel est ton comportement le plus immoral ?" },
+      { "id": 598, "text": "Quelle est ta plus grande désillusion ?" },
+      { "id": 599, "text": "As-tu déjà menti sur tes intentions ?" },
+      { "id": 600, "text": "Quel est ton plus gros défaut humain ?" }
+    ]
+  },
+  "difficile": {
+    "actions": [
+      { "id": 33, "text": "Mange un mélange bizarre choisi par le groupe" },
+      { "id": 34, "text": "Envoie un message à ton ex" },
+      {
+        "id": 35,
+        "text": "Laisse le groupe fouiller dans ton téléphone pendant 2 minutes"
+      },
+      { "id": 36, "text": "Bois un verre d'eau salée" },
+      { "id": 37, "text": "Raconte ton secret le plus embarrassant" },
+      { "id": 38, "text": "Embrasse la main de la personne à ta droite" },
+      { "id": 39, "text": "Supprime ta photo de profil pendant 24h" },
+      { "id": 40, "text": "Donne ton mot de passe wifi à tout le monde" },
+      { "id": 601, "text": "Appelle ton crush et avoue tes sentiments" },
+      { "id": 602, "text": "Raconte ton secret le plus inavouable" },
+      { "id": 603, "text": "Envoie un message gênant à ton patron" },
+      { "id": 604, "text": "Laisse quelqu'un lire tes messages privés" },
+      { "id": 605, "text": "Mange quelque chose de répugnant" },
+      {
+        "id": 606,
+        "text": "Avoue quelque chose que tu n'as jamais dit à personne"
+      },
+      { "id": 607, "text": "Embrasse quelqu'un dans le groupe" },
+      {
+        "id": 608,
+        "text": "Supprime ton profil sur les réseaux sociaux pendant une semaine"
+      },
+      { "id": 609, "text": "Raconte ta plus grosse honte sexuelle" },
+      { "id": 610, "text": "Appelle tes parents et avoue un mensonge" },
+      { "id": 611, "text": "Laisse le groupe poster sur tes réseaux sociaux" },
+      { "id": 612, "text": "Mange un mélange d'aliments dégoûtants" },
+      { "id": 613, "text": "Raconte une fois où tu as trompé quelqu'un" },
+      { "id": 614, "text": "Envoie une photo embarrassante de toi au groupe" },
+      { "id": 615, "text": "Avoue ton plus gros mensonge à tes proches" },
+      { "id": 616, "text": "Embrasse la personne que tu aimes le moins ici" },
+      { "id": 617, "text": "Partage ton secret bancaire" },
+      { "id": 618, "text": "Raconte ta fantasy sexuelle" },
+      { "id": 619, "text": "Appelle ton ex et demande-lui de revenir" },
+      { "id": 620, "text": "Laisse quelqu'un fouiller dans tes photos" },
+      { "id": 621, "text": "Mange quelque chose de périmé" },
+      { "id": 622, "text": "Raconte un secret de famille" },
+      { "id": 623, "text": "Envoie un message d'amour à quelqu'un de random" },
+      { "id": 624, "text": "Avoue à qui tu penses pendant l'intimité" },
+      { "id": 625, "text": "Embrasse passionnément un objet" },
+      { "id": 626, "text": "Supprime tous tes contacts pendant 24h" },
+      { "id": 627, "text": "Raconte ta plus grosse perversion" },
+      { "id": 628, "text": "Appelle un inconnu et déclare ton amour" },
+      {
+        "id": 629,
+        "text": "Laisse le groupe choisir ta tenue pour une semaine"
+      },
+      { "id": 630, "text": "Mange de la nourriture pour animaux" },
+      { "id": 631, "text": "Raconte quelque chose d'illégal que tu as fait" },
+      { "id": 632, "text": "Envoie une photo intime (appropriée) au groupe" },
+      { "id": 633, "text": "Avoue ton plus grand complexe physique" },
+      { "id": 634, "text": "Embrasse quelqu'un du même sexe que toi" },
+      { "id": 635, "text": "Partage ton historique de navigation" },
+      { "id": 636, "text": "Raconte ta plus grosse addiction" },
+      {
+        "id": 637,
+        "text": "Appelle ton professeur et dis-lui ce que tu penses vraiment"
+      },
+      {
+        "id": 638,
+        "text": "Laisse quelqu'un contrôler ton téléphone pendant une heure"
+      },
+      { "id": 639, "text": "Mange quelque chose de vivant (approprié)" },
+      { "id": 640, "text": "Raconte ton plus gros regret sexuel" },
+      { "id": 641, "text": "Envoie un message gênant à toute ta famille" },
+      { "id": 642, "text": "Avoue quelque chose que tu as volé" },
+      { "id": 643, "text": "Embrasse les pieds de quelqu'un" },
+      { "id": 644, "text": "Supprime toutes tes photos pendant 24h" },
+      { "id": 645, "text": "Raconte ta plus grosse humiliation" },
+      { "id": 646, "text": "Appelle ton crush actuel et parle de sexe" },
+      { "id": 647, "text": "Laisse le groupe lire ton journal intime" },
+      { "id": 648, "text": "Mange un sandwich dégoûtant" },
+      { "id": 649, "text": "Raconte une fois où tu as été méchant" },
+      { "id": 650, "text": "Envoie une déclaration d'amour publique" },
+      { "id": 651, "text": "Avoue tes pensées les plus sombres" },
+      { "id": 652, "text": "Embrasse quelqu'un en couple" },
+      { "id": 653, "text": "Partage ton plus gros secret financier" },
+      { "id": 654, "text": "Raconte ta plus grosse trahison" },
+      { "id": 655, "text": "Appelle ton ex et excuse-toi pour tout" },
+      { "id": 656, "text": "Laisse quelqu'un voir tes recherches Google" },
+      { "id": 657, "text": "Mange quelque chose de moisi" },
+      { "id": 658, "text": "Raconte ton plus gros secret sexuel" },
+      { "id": 659, "text": "Envoie un nude artistique (approprié)" },
+      { "id": 660, "text": "Avoue à qui tu es attiré dans ce groupe" },
+      { "id": 661, "text": "Embrasse quelqu'un de manière inappropriée" },
+      { "id": 662, "text": "Supprime tous tes amis sur les réseaux sociaux" },
+      { "id": 663, "text": "Raconte ta plus grosse déception amoureuse" },
+      { "id": 664, "text": "Appelle quelqu'un et avoue que tu l'aimes" },
+      { "id": 665, "text": "Laisse le groupe voir ton compte bancaire" },
+      { "id": 666, "text": "Mange quelque chose de dégueulasse" },
+      { "id": 667, "text": "Raconte ton plus gros mensonge à tes parents" },
+      { "id": 668, "text": "Envoie un message à quelqu'un que tu détestes" },
+      { "id": 669, "text": "Avoue ton kink le plus bizarre" },
+      { "id": 670, "text": "Embrasse l'objet le plus sale de la pièce" },
+      { "id": 671, "text": "Partage tes mots de passe" },
+      { "id": 672, "text": "Raconte ta plus grosse erreur de jeunesse" },
+      { "id": 673, "text": "Appelle ton boss et démissionne" },
+      { "id": 674, "text": "Laisse quelqu'un tatouer quelque chose sur toi" },
+      { "id": 675, "text": "Mange quelque chose d'interdit" },
+      { "id": 676, "text": "Raconte ton secret de famille le plus dark" },
+      { "id": 677, "text": "Envoie une photo compromettante" },
+      { "id": 678, "text": "Avoue quelque chose d'immoral que tu as fait" },
+      {
+        "id": 679,
+        "text": "Embrasse quelqu'un contre son gré (avec consentement)"
+      },
+      { "id": 680, "text": "Supprime tous tes souvenirs numériques" },
+      { "id": 681, "text": "Raconte ta plus grosse manipulation" },
+      { "id": 682, "text": "Appelle la police et fais une fausse déclaration" },
+      { "id": 683, "text": "Laisse quelqu'un accéder à tous tes comptes" },
+      { "id": 684, "text": "Mange quelque chose de toxique (sans danger)" },
+      { "id": 685, "text": "Raconte ton crime le plus grave" },
+      { "id": 686, "text": "Envoie ton adresse à un inconnu" },
+      { "id": 687, "text": "Avoue tes pensées les plus perverses" },
+      { "id": 688, "text": "Embrasse quelqu'un de marié" },
+      { "id": 689, "text": "Partage tes informations personnelles" },
+      { "id": 690, "text": "Raconte ta plus grosse lâcheté" },
+      { "id": 691, "text": "Appelle tes parents et avoue tes échecs" },
+      {
+        "id": 692,
+        "text": "Laisse le groupe décider de ta vie pendant une journée"
+      },
+      {
+        "id": 693,
+        "text": "Mange quelque chose de répugnant choisi par le groupe"
+      },
+      { "id": 694, "text": "Raconte ton plus gros secret inavouable" },
+      { "id": 695, "text": "Envoie une confession publique" },
+      { "id": 696, "text": "Avoue tes désirs les plus fous" },
+      { "id": 697, "text": "Embrasse le sol" },
+      { "id": 698, "text": "Supprime toute ton identité numérique" },
+      { "id": 699, "text": "Raconte ta plus grosse honte" },
+      { "id": 700, "text": "Appelle quelqu'un et révèle un secret" }
+    ],
+    "verites": [
+      { "id": 41, "text": "Quel est ton secret le plus sombre ?" },
+      { "id": 42, "text": "As-tu déjà trompé en couple ?" },
+      {
+        "id": 43,
+        "text": "Quelle est la chose la plus illégale que tu aies faite ?"
+      },
+      { "id": 44, "text": "Qui dans ce groupe aimerais-tu embrasser ?" },
+      { "id": 45, "text": "Quel est ton fantasme le plus fou ?" },
+      {
+        "id": 46,
+        "text": "As-tu déjà eu des sentiments pour l'ex de ton ami ?"
+      },
+      {
+        "id": 47,
+        "text": "Quelle est la chose la plus méchante que tu aies dite sur quelqu'un ?"
+      },
+      {
+        "id": 48,
+        "text": "As-tu déjà simulé pour faire plaisir à quelqu'un ?"
+      },
+      { "id": 701, "text": "Quel est ton kink le plus bizarre ?" },
+      {
+        "id": 702,
+        "text": "As-tu déjà eu une relation avec quelqu'un de marié ?"
+      },
+      { "id": 703, "text": "Quelle est ta perversion secrète ?" },
+      { "id": 704, "text": "Qui dans ce groupe coucherais-tu avec ?" },
+      { "id": 705, "text": "Quel est ton crime le plus grave ?" },
+      { "id": 706, "text": "As-tu déjà eu des pensées suicidaires ?" },
+      { "id": 707, "text": "Quelle est ta plus grosse addiction ?" },
+      { "id": 708, "text": "Quel est ton secret sexuel le plus inavouable ?" },
+      {
+        "id": 709,
+        "text": "As-tu déjà fait du mal à quelqu'un volontairement ?"
+      },
+      { "id": 710, "text": "Quelle est ta plus grosse honte familiale ?" },
+      { "id": 711, "text": "Quel est ton mensonge le plus destructeur ?" },
+      { "id": 712, "text": "As-tu déjà eu des relations incestueuses ?" },
+      { "id": 713, "text": "Quelle est ta manipulation la plus cruelle ?" },
+      { "id": 714, "text": "Quel est ton comportement le plus sociopathe ?" },
+      { "id": 715, "text": "As-tu déjà volé quelque chose de valeur ?" },
+      { "id": 716, "text": "Quelle est ta plus grosse trahison ?" },
+      { "id": 717, "text": "Quel est ton secret le plus immoral ?" },
+      { "id": 718, "text": "As-tu déjà eu des relations tarifées ?" },
+      { "id": 719, "text": "Quelle est ta plus grosse lâcheté ?" },
+      { "id": 720, "text": "Quel est ton comportement le plus pathologique ?" },
+      {
+        "id": 721,
+        "text": "As-tu déjà fait quelque chose d'illégal pour de l'argent ?"
+      },
+      { "id": 722, "text": "Quelle est ta plus grosse humiliation sexuelle ?" },
+      { "id": 723, "text": "Quel est ton secret de famille le plus dark ?" },
+      { "id": 724, "text": "As-tu déjà eu des pensées de violence ?" },
+      { "id": 725, "text": "Quelle est ta plus grosse corruption ?" },
+      { "id": 726, "text": "Quel est ton comportement le plus dégradant ?" },
+      { "id": 727, "text": "As-tu déjà utilisé quelqu'un sexuellement ?" },
+      {
+        "id": 728,
+        "text": "Quelle est ta plus grosse manipulation émotionnelle ?"
+      },
+      { "id": 729, "text": "Quel est ton secret le plus destructeur ?" },
+      { "id": 730, "text": "As-tu déjà menti sur quelque chose de grave ?" },
+      { "id": 731, "text": "Quelle est ta plus grosse dépravation ?" },
+      { "id": 732, "text": "Quel est ton comportement le plus immature ?" },
+      { "id": 733, "text": "As-tu déjà fait du chantage ?" },
+      { "id": 734, "text": "Quelle est ta plus grosse hypocrisie ?" },
+      { "id": 735, "text": "Quel est ton mensonge le plus blessant ?" },
+      { "id": 736, "text": "As-tu déjà eu des relations avec un mineur ?" },
+      { "id": 737, "text": "Quelle est ta plus grosse exploitation ?" },
+      { "id": 738, "text": "Quel est ton comportement le plus toxique ?" },
+      { "id": 739, "text": "As-tu déjà détruit la vie de quelqu'un ?" },
+      { "id": 740, "text": "Quelle est ta plus grosse cruauté ?" },
+      { "id": 741, "text": "Quel est ton secret le plus honteux ?" },
+      { "id": 742, "text": "As-tu déjà eu des pensées de meurtre ?" },
+      { "id": 743, "text": "Quelle est ta plus grosse aberration ?" },
+      { "id": 744, "text": "Quel est ton comportement le plus dégueulasse ?" },
+      { "id": 745, "text": "As-tu déjà abusé de ta position ?" },
+      { "id": 746, "text": "Quelle est ta plus grosse perversité ?" },
+      { "id": 747, "text": "Quel est ton secret le plus inadmissible ?" },
+      { "id": 748, "text": "As-tu déjà fait quelque chose d'irréparable ?" },
+      { "id": 749, "text": "Quelle est ta plus grosse ignominie ?" },
+      { "id": 750, "text": "Quel est ton comportement le plus vil ?" },
+      { "id": 751, "text": "As-tu déjà ruiné une famille ?" },
+      { "id": 752, "text": "Quelle est ta plus grosse bassesse ?" },
+      { "id": 753, "text": "Quel est ton secret le plus répugnant ?" },
+      { "id": 754, "text": "As-tu déjà commis un crime grave ?" },
+      { "id": 755, "text": "Quelle est ta plus grosse monstruosité ?" },
+      { "id": 756, "text": "Quel est ton comportement le plus abject ?" },
+      { "id": 757, "text": "As-tu déjà détruit quelqu'un psychologiquement ?" },
+      { "id": 758, "text": "Quelle est ta plus grosse abjection ?" },
+      { "id": 759, "text": "Quel est ton secret le plus infâme ?" },
+      {
+        "id": 760,
+        "text": "As-tu déjà fait quelque chose de moralement impardonnable ?"
+      },
+      { "id": 761, "text": "Quelle est ta plus grosse turpitude ?" },
+      { "id": 762, "text": "Quel est ton comportement le plus odieux ?" },
+      { "id": 763, "text": "As-tu déjà causé la mort de quelqu'un ?" },
+      { "id": 764, "text": "Quelle est ta plus grosse infamie ?" },
+      { "id": 765, "text": "Quel est ton secret le plus épouvantable ?" },
+      { "id": 766, "text": "As-tu déjà détruit des preuves ?" },
+      { "id": 767, "text": "Quelle est ta plus grosse abomination ?" },
+      { "id": 768, "text": "Quel est ton comportement le plus monstrueux ?" },
+      { "id": 769, "text": "As-tu déjà commis un acte irréversible ?" },
+      { "id": 770, "text": "Quelle est ta plus grosse horreur ?" },
+      { "id": 771, "text": "Quel est ton secret le plus atroce ?" },
+      { "id": 772, "text": "As-tu déjà fait du mal à un enfant ?" },
+      { "id": 773, "text": "Quelle est ta plus grosse barbarie ?" },
+      { "id": 774, "text": "Quel est ton comportement le plus cruel ?" },
+      { "id": 775, "text": "As-tu déjà commis un acte de violence grave ?" },
+      { "id": 776, "text": "Quelle est ta plus grosse sauvagerie ?" },
+      { "id": 777, "text": "Quel est ton secret le plus bestial ?" },
+      { "id": 778, "text": "As-tu déjà fait quelque chose d'inhumain ?" },
+      { "id": 779, "text": "Quelle est ta plus grosse brutalité ?" },
+      { "id": 780, "text": "Quel est ton comportement le plus inacceptable ?" },
+      { "id": 781, "text": "As-tu déjà eu des pensées de vengeance extrême ?" },
+      { "id": 782, "text": "Quelle est ta plus grosse noirceur ?" },
+      { "id": 783, "text": "Quel est ton secret le plus ténébreux ?" },
+      { "id": 784, "text": "As-tu déjà fait quelque chose de diabolique ?" },
+      { "id": 785, "text": "Quelle est ta plus grosse malveillance ?" },
+      { "id": 786, "text": "Quel est ton comportement le plus démoniaque ?" },
+      { "id": 787, "text": "As-tu déjà eu des pulsions destructrices ?" },
+      { "id": 788, "text": "Quelle est ta plus grosse méchanceté ?" },
+      { "id": 789, "text": "Quel est ton secret le plus maléfique ?" },
+      { "id": 790, "text": "As-tu déjà fait quelque chose de satanique ?" },
+      { "id": 791, "text": "Quelle est ta plus grosse malédiction ?" },
+      { "id": 792, "text": "Quel est ton comportement le plus malin ?" },
+      {
+        "id": 793,
+        "text": "As-tu déjà eu des pensées de domination absolue ?"
+      },
+      {
+        "id": 794,
+        "text": "Quelle est ta plus grosse manipulation psychologique ?"
+      },
+      { "id": 795, "text": "Quel est ton secret le plus pervers ?" },
+      { "id": 796, "text": "As-tu déjà fait quelque chose de sadique ?" },
+      {
+        "id": 797,
+        "text": "Quelle est ta plus grosse jouissance dans la souffrance d'autrui ?"
+      },
+      { "id": 798, "text": "Quel est ton comportement le plus masochiste ?" },
+      { "id": 799, "text": "As-tu déjà eu des fantasmes de pouvoir absolu ?" },
+      { "id": 800, "text": "Quelle est ta plus grosse déviance ?" },
+      {
+        "id": 801,
+        "text": "Quelle est la plus grande peur que tu n'as jamais avouée ?"
+      },
+      {
+        "id": 802,
+        "text": "As-tu déjà été jaloux au point de faire quelque chose de regrettable ?"
+      },
+      {
+        "id": 803,
+        "text": "Quel est le plus gros secret que tu caches à tes amis ?"
+      },
+      { "id": 804, "text": "As-tu déjà eu envie de tout quitter ? Pourquoi ?" },
+      {
+        "id": 805,
+        "text": "Quelle est la chose la plus honteuse que tu aies faite par amour ?"
+      },
+      {
+        "id": 806,
+        "text": "As-tu déjà manipulé quelqu'un pour obtenir ce que tu voulais ?"
+      },
+      {
+        "id": 807,
+        "text": "Quel est le plus gros mensonge que tu as dit à tes parents ?"
+      },
+      { "id": 808, "text": "As-tu déjà eu des pensées de vengeance ?" },
+      {
+        "id": 809,
+        "text": "Quelle est la chose la plus risquée que tu aies faite ?"
+      },
+      { "id": 810, "text": "As-tu déjà regretté une rupture ?" },
+      {
+        "id": 811,
+        "text": "Quel est le plus grand secret que tu as gardé pour protéger quelqu'un ?"
+      },
+      { "id": 812, "text": "As-tu déjà eu honte de ta famille ?" },
+      {
+        "id": 813,
+        "text": "Quelle est la plus grosse erreur que tu as commise au travail ou à l'école ?"
+      },
+      { "id": 814, "text": "As-tu déjà blessé quelqu'un sans t'excuser ?" },
+      {
+        "id": 815,
+        "text": "Quel est le plus grand sacrifice que tu as fait pour quelqu'un ?"
+      },
+      {
+        "id": 816,
+        "text": "As-tu déjà eu envie de changer complètement de vie ?"
+      },
+      {
+        "id": 817,
+        "text": "Quelle est la chose la plus étrange que tu aies recherchée sur Internet ?"
+      },
+      { "id": 818, "text": "As-tu déjà été obsédé par quelqu'un ?" },
+      {
+        "id": 819,
+        "text": "Quel est le plus grand secret que tu as découvert sur quelqu'un d'autre ?"
+      },
+      { "id": 820, "text": "As-tu déjà fait semblant d'aimer quelqu'un ?" },
+      {
+        "id": 821,
+        "text": "Quelle est la chose la plus difficile que tu as dû pardonner ?"
+      },
+      {
+        "id": 822,
+        "text": "As-tu déjà souhaité échanger ta vie avec quelqu'un d'autre ?"
+      },
+      { "id": 823, "text": "Quel est le rêve que tu n'avoues à personne ?" },
+      { "id": 824, "text": "As-tu déjà eu honte de ton apparence ?" },
+      {
+        "id": 825,
+        "text": "Quelle est la plus grande trahison que tu as vécue ?"
+      },
+      {
+        "id": 826,
+        "text": "As-tu déjà menti pour éviter de blesser quelqu'un ?"
+      },
+      {
+        "id": 827,
+        "text": "Quel est le plus grand risque que tu as pris en amour ?"
+      },
+      { "id": 828, "text": "As-tu déjà eu envie de disparaître ?" },
+      {
+        "id": 829,
+        "text": "Quelle est la chose la plus étrange que tu aies faite par défi ?"
+      },
+      {
+        "id": 830,
+        "text": "As-tu déjà eu peur de devenir comme tes parents ?"
+      },
+      { "id": 831, "text": "Quel est le plus grand regret de ta vie ?" },
+      {
+        "id": 832,
+        "text": "As-tu déjà eu des pensées que tu n'oses pas partager ?"
+      },
+      { "id": 833, "text": "Quelle est la plus grande honte de ton enfance ?" },
+      { "id": 834, "text": "As-tu déjà fait du mal à quelqu'un sans raison ?" },
+      {
+        "id": 835,
+        "text": "Quel est le plus grand secret que tu as gardé à ton/ta partenaire ?"
+      },
+      { "id": 836, "text": "As-tu déjà eu envie de tout recommencer à zéro ?" },
+      {
+        "id": 837,
+        "text": "Quelle est la chose la plus étrange que tu aies mangée ?"
+      },
+      {
+        "id": 838,
+        "text": "As-tu déjà été jaloux d'un ami au point de lui nuire ?"
+      },
+      {
+        "id": 839,
+        "text": "Quel est le plus grand risque que tu as pris dans ta vie ?"
+      },
+      { "id": 840, "text": "As-tu déjà eu peur de perdre le contrôle ?" },
+      {
+        "id": 841,
+        "text": "Quelle est la chose la plus difficile à avouer pour toi ?"
+      },
+      {
+        "id": 842,
+        "text": "As-tu déjà eu envie de fuir tes responsabilités ?"
+      },
+      {
+        "id": 843,
+        "text": "Quel est le plus grand secret que tu as gardé à un ami ?"
+      },
+      { "id": 844, "text": "As-tu déjà eu honte de tes sentiments ?" },
+      {
+        "id": 845,
+        "text": "Quelle est la chose la plus folle que tu aies faite par amour ?"
+      },
+      {
+        "id": 846,
+        "text": "As-tu déjà eu envie de changer de prénom ou d'identité ?"
+      },
+      {
+        "id": 847,
+        "text": "Quel est le plus grand mensonge que tu as dit à un proche ?"
+      },
+      { "id": 848, "text": "As-tu déjà eu peur de ne pas être à la hauteur ?" },
+      {
+        "id": 849,
+        "text": "Quelle est la chose la plus étrange que tu aies rêvée ?"
+      },
+      { "id": 850, "text": "As-tu déjà eu envie de tout abandonner ?" },
+      {
+        "id": 851,
+        "text": "Quel est le plus grand secret que tu as gardé à ta famille ?"
+      },
+      { "id": 852, "text": "As-tu déjà eu honte de tes choix ?" },
+      {
+        "id": 853,
+        "text": "Quelle est la chose la plus difficile que tu as vécue ?"
+      },
+      { "id": 854, "text": "As-tu déjà eu envie de te venger de quelqu'un ?" },
+      {
+        "id": 855,
+        "text": "Quel est le plus grand secret que tu as gardé à ton employeur ?"
+      },
+      { "id": 856, "text": "As-tu déjà eu peur de dire la vérité ?" },
+      {
+        "id": 857,
+        "text": "Quelle est la chose la plus étrange que tu aies collectionnée ?"
+      },
+      {
+        "id": 858,
+        "text": "As-tu déjà eu envie de changer de vie du jour au lendemain ?"
+      },
+      {
+        "id": 859,
+        "text": "Quel est le plus grand secret que tu as gardé à toi-même ?"
+      },
+      { "id": 860, "text": "As-tu déjà eu honte de tes passions ?" },
+      {
+        "id": 861,
+        "text": "Quelle est la chose la plus difficile à oublier pour toi ?"
+      },
+      {
+        "id": 862,
+        "text": "As-tu déjà eu envie de tout effacer de ton passé ?"
+      },
+      {
+        "id": 863,
+        "text": "Quel est le plus grand secret que tu as gardé à un professeur ?"
+      },
+      {
+        "id": 864,
+        "text": "As-tu déjà eu honte de ton comportement en public ?"
+      },
+      {
+        "id": 865,
+        "text": "Quelle est la chose la plus étrange que tu aies faite seul(e) ?"
+      },
+      { "id": 866, "text": "As-tu déjà eu envie de changer de nationalité ?" },
+      {
+        "id": 867,
+        "text": "Quel est le plus grand secret que tu as gardé à un ex ?"
+      },
+      { "id": 868, "text": "As-tu déjà eu honte de tes origines ?" },
+      {
+        "id": 869,
+        "text": "Quelle est la chose la plus difficile que tu as dû avouer ?"
+      },
+      {
+        "id": 870,
+        "text": "As-tu déjà eu envie de tout recommencer ailleurs ?"
+      },
+      {
+        "id": 871,
+        "text": "Quel est le plus grand secret que tu as gardé à un collègue ?"
+      },
+      {
+        "id": 872,
+        "text": "As-tu déjà eu honte de tes notes ou de tes résultats ?"
+      },
+      {
+        "id": 873,
+        "text": "Quelle est la chose la plus étrange que tu aies faite en cachette ?"
+      },
+      { "id": 874, "text": "As-tu déjà eu envie de changer de prénom ?" },
+      {
+        "id": 875,
+        "text": "Quel est le plus grand secret que tu as gardé à un membre de ta famille ?"
+      },
+      { "id": 876, "text": "As-tu déjà eu honte de ton passé amoureux ?" },
+      {
+        "id": 877,
+        "text": "Quelle est la chose la plus difficile que tu as dû affronter seul(e) ?"
+      },
+      {
+        "id": 878,
+        "text": "As-tu déjà eu envie de tout dire à quelqu'un sans jamais oser ?"
+      },
+      {
+        "id": 879,
+        "text": "Quel est le plus grand secret que tu as gardé à un groupe d'amis ?"
+      },
+      { "id": 880, "text": "As-tu déjà eu honte de tes rêves ou ambitions ?" },
+      {
+        "id": 881,
+        "text": "Quelle est la chose la plus étrange que tu aies faite par curiosité ?"
+      },
+      {
+        "id": 882,
+        "text": "As-tu déjà eu envie de changer de métier radicalement ?"
+      },
+      {
+        "id": 883,
+        "text": "Quel est le plus grand secret que tu as gardé à un partenaire amoureux ?"
+      },
+      {
+        "id": 884,
+        "text": "As-tu déjà eu honte de tes goûts musicaux ou artistiques ?"
+      },
+      {
+        "id": 885,
+        "text": "Quelle est la chose la plus difficile que tu as dû cacher ?"
+      },
+      {
+        "id": 886,
+        "text": "As-tu déjà eu envie de tout avouer publiquement ?"
+      },
+      {
+        "id": 887,
+        "text": "Quel est le plus grand secret que tu as gardé à un inconnu ?"
+      },
+      { "id": 888, "text": "As-tu déjà eu honte de tes opinions ?" },
+      {
+        "id": 889,
+        "text": "Quelle est la chose la plus étrange que tu aies faite pour de l'argent ?"
+      },
+      {
+        "id": 890,
+        "text": "As-tu déjà eu envie de changer de prénom ou de nom de famille ?"
+      },
+      {
+        "id": 891,
+        "text": "Quel est le plus grand secret que tu as gardé à un médecin ?"
+      },
+      { "id": 892, "text": "As-tu déjà eu honte de ta famille en public ?" },
+      {
+        "id": 893,
+        "text": "Quelle est la chose la plus difficile que tu as dû accepter ?"
+      },
+      {
+        "id": 894,
+        "text": "As-tu déjà eu envie de tout recommencer sans prévenir personne ?"
+      },
+      {
+        "id": 895,
+        "text": "Quel est le plus grand secret que tu as gardé à un supérieur hiérarchique ?"
+      },
+      {
+        "id": 896,
+        "text": "As-tu déjà eu honte de ton comportement en soirée ?"
+      },
+      {
+        "id": 897,
+        "text": "Quelle est la chose la plus étrange que tu aies faite pour impressionner quelqu'un ?"
+      },
+      {
+        "id": 898,
+        "text": "As-tu déjà eu envie de changer de vie après un événement marquant ?"
+      },
+      {
+        "id": 899,
+        "text": "Quel est le plus grand secret que tu as gardé à un voisin ?"
+      },
+      {
+        "id": 900,
+        "text": "As-tu déjà eu honte de tes réactions dans une situation difficile ?"
+      }
+    ]
+  }
+}
