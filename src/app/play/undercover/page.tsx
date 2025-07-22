@@ -1,8 +1,10 @@
 "use client";
 import { useState, useEffect } from "react";
 import { useRouter } from "next/navigation";
+import { useSession } from "next-auth/react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { EffectCards, Navigation, Pagination } from "swiper/modules";
+import AuthGuard from "~/components/AuthGuard";
 import "swiper/css";
 import "swiper/css/effect-cards";
 import "swiper/css/navigation";
@@ -40,7 +42,8 @@ interface GameConfig {
   mrWhite: number;
 }
 
-export default function UndercoverPage() {
+function UndercoverGame() {
+  const { data: session } = useSession();
   const [players, setPlayers] = useState<SelectedPlayer[]>([]);
   const [gameData, setGameData] = useState<GameData | null>(null);
   const [gameStarted, setGameStarted] = useState(false);
@@ -63,18 +66,55 @@ export default function UndercoverPage() {
     mrWhite: 0,
   });
   const [showAdvancedConfig, setShowAdvancedConfig] = useState(false);
+  const [gameResult, setGameResult] = useState<string | null>(null);
 
   const router = useRouter();
 
-  // Load players from localStorage
+  // Charger les données de jeu et les joueurs depuis l'API protégée
   useEffect(() => {
-    const storedPlayers = localStorage.getItem("selectedPlayers");
-    if (storedPlayers) {
-      setPlayers(JSON.parse(storedPlayers));
-    } else {
-      router.push("/players");
+    const loadGameData = async () => {
+      try {
+        // Charger les données depuis l'API protégée
+        const response = await fetch("/api/games/undercover");
+        if (response.ok) {
+          const data = await response.json();
+          setGameData(data.gameData);
+        } else {
+          console.error("Erreur lors du chargement des données de jeu");
+          const errorData = await response.json();
+          console.error("Détails de l'erreur:", errorData);
+        }
+      } catch (error) {
+        console.error("Erreur lors du chargement des données de jeu:", error);
+      }
+    };
+
+    const loadPlayers = async () => {
+      try {
+        // Charger les joueurs depuis l'API
+        const response = await fetch("/api/players");
+        if (response.ok) {
+          const playersData = await response.json();
+          if (playersData.length >= 3) {
+            setPlayers(playersData);
+          } else {
+            router.push("/players/manage");
+          }
+        } else {
+          console.error("Erreur lors du chargement des joueurs");
+          router.push("/players/manage");
+        }
+      } catch (error) {
+        console.error("Erreur lors du chargement des joueurs:", error);
+        router.push("/players/manage");
+      }
+    };
+
+    if (session) {
+      loadGameData();
+      loadPlayers();
     }
-  }, [router]);
+  }, [session, router]);
 
   // Update default config when players change
   useEffect(() => {
@@ -92,13 +132,32 @@ export default function UndercoverPage() {
     }
   }, [players]);
 
-  // Load game data
-  useEffect(() => {
-    fetch("/data/undercover.json")
-      .then((res) => res.json())
-      .then((data: GameData) => setGameData(data))
-      .catch((error) => console.error("Error loading game data:", error));
-  }, []);
+  // Enregistrer une session de jeu
+  const saveGameSession = async () => {
+    try {
+      const playerIds = players.map((p) => p.id);
+      const response = await fetch("/api/games/undercover", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({
+          playerIds,
+          gameSetId: currentGameSet?.id,
+          gameResult,
+          winner: gameResult,
+        }),
+      });
+
+      if (response.ok) {
+        console.log("Session de jeu Undercover enregistrée avec succès");
+      } else {
+        console.error("Erreur lors de l'enregistrement de la session");
+      }
+    } catch (error) {
+      console.error("Erreur lors de l'enregistrement de la session:", error);
+    }
+  };
 
   const startGame = () => {
     if (!gameData || players.length < 3) return;
@@ -234,6 +293,7 @@ export default function UndercoverPage() {
   const nextRound = () => {
     const gameEnd = checkGameEnd();
     if (gameEnd) {
+      setGameResult(gameEnd.winner); // Enregistrer le résultat du jeu
       setGamePhase("reveal");
       return;
     }
@@ -676,7 +736,12 @@ export default function UndercoverPage() {
 
           <div className="flex gap-4">
             <button
-              onClick={() => router.push("/players")}
+              onClick={async () => {
+                if (gameStarted) {
+                  await saveGameSession();
+                }
+                router.push(`/players?gameId=${2}`);
+              }}
               className="flex-1 rounded-lg bg-gray-600 py-3 font-bold transition-colors hover:bg-gray-700"
             >
               Modifier Joueurs
@@ -783,4 +848,13 @@ export default function UndercoverPage() {
   }
 
   return null;
+}
+
+// Composant principal avec protection d'authentification
+export default function UndercoverPage() {
+  return (
+    <AuthGuard gameType="undercover" requiredPlayers={3}>
+      <UndercoverGame />
+    </AuthGuard>
+  );
 }

@@ -1,5 +1,5 @@
 "use client";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { redirect } from "next/navigation";
 import { auth } from "~/server/auth";
 import { games } from "~/server/util";
@@ -94,6 +94,24 @@ function GameCard({
 
 export default function HomePage() {
   const [selectedCategory, setSelectedCategory] = useState<string>("Tous");
+  const [authError, setAuthError] = useState<string | null>(null);
+
+  // Vérifier les paramètres d'URL pour les erreurs d'authentification
+  useEffect(() => {
+    const urlParams = new URLSearchParams(window.location.search);
+    const error = urlParams.get("error");
+
+    if (error === "auth_required") {
+      setAuthError("Vous devez être connecté pour accéder aux jeux.");
+      // Nettoyer l'URL
+      const url = new URL(window.location.href);
+      url.searchParams.delete("error");
+      window.history.replaceState({}, "", url.toString());
+
+      // Masquer l'erreur après 5 secondes
+      setTimeout(() => setAuthError(null), 5000);
+    }
+  }, []);
 
   const categories = [
     "Tous",
@@ -121,6 +139,17 @@ export default function HomePage() {
   return (
     <main className="min-h-screen bg-gradient-to-br from-[#1a1a2e] via-[#16213e] to-[#0f3460] text-white">
       <div className="container mx-auto px-4 py-8">
+        {/* Message d'erreur d'authentification */}
+        {authError && (
+          <div className="mx-auto mb-6 max-w-md">
+            <div className="rounded-lg border border-red-500/50 bg-red-500/20 p-4 text-center">
+              <div className="text-sm font-medium text-red-400">
+                🔒 {authError}
+              </div>
+            </div>
+          </div>
+        )}
+
         {/* Header */}
         <div className="mb-12 text-center">
           <h1 className="mb-4 bg-gradient-to-r from-purple-400 to-pink-400 bg-clip-text text-6xl font-extrabold text-transparent">

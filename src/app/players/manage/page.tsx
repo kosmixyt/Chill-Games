@@ -1,6 +1,6 @@
 "use client";
 import { useState, useEffect } from "react";
-import { useSession } from "next-auth/react";
+import { useSession, signIn } from "next-auth/react";
 import type { GamePlayer } from "@prisma/client";
 
 // Types pour les joueurs
@@ -221,6 +221,12 @@ export default function ManagePlayersPage() {
   };
 
   useEffect(() => {
+    if (status === "unauthenticated") {
+      // Rediriger vers la page de connexion avec un paramètre de redirection
+      signIn(undefined, { callbackUrl: window.location.href });
+      return;
+    }
+
     if (status === "authenticated") {
       fetchPlayers();
     }
@@ -339,9 +345,25 @@ export default function ManagePlayersPage() {
     return (
       <main className="min-h-screen bg-gradient-to-br from-[#1a1a2e] via-[#16213e] to-[#0f3460] text-white">
         <div className="flex min-h-screen items-center justify-center">
-          <div className="text-center">
-            <div className="mb-4 text-4xl">🔒</div>
-            <p className="text-xl text-gray-300">Connexion requise</p>
+          <div className="mx-auto max-w-md p-8 text-center">
+            <div className="mb-6 text-6xl">🔒</div>
+            <h1 className="mb-4 text-3xl font-bold text-white">
+              Connexion requise
+            </h1>
+            <p className="mb-6 text-gray-300">
+              Vous devez être connecté pour gérer vos joueurs.
+            </p>
+            <p className="mb-4 text-sm text-gray-400">
+              Redirection vers la page de connexion...
+            </p>
+            <button
+              onClick={() =>
+                signIn(undefined, { callbackUrl: window.location.href })
+              }
+              className="rounded-lg bg-blue-600 px-6 py-3 font-bold text-white transition-colors hover:bg-blue-700"
+            >
+              Se connecter maintenant
+            </button>
           </div>
         </div>
       </main>

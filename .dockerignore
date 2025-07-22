@@ -22,7 +22,6 @@ build
 .vscode
 .idea
 *.log
-public/data/*
 
 # Garder les fichiers Prisma nécessaires
 !prisma/

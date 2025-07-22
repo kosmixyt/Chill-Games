@@ -1,8 +1,10 @@
 "use client";
 import { useState, useEffect } from "react";
 import { useRouter } from "next/navigation";
+import { useSession } from "next-auth/react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { EffectCards, Navigation, Pagination } from "swiper/modules";
+import AuthGuard from "~/components/AuthGuard";
 import "swiper/css";
 import "swiper/css/effect-cards";
 import "swiper/css/navigation";
@@ -35,7 +37,8 @@ interface GameData {
   };
 }
 
-export default function ActionOuVeritePage() {
+function ActionOuVeriteGame() {
+  const { data: session } = useSession();
   const [players, setPlayers] = useState<SelectedPlayer[]>([]);
   const [gameData, setGameData] = useState<GameData | null>(null);
   const [currentPlayerIndex, setCurrentPlayerIndex] = useState(0);
@@ -61,46 +64,80 @@ export default function ActionOuVeritePage() {
     difficile_verites: [],
   });
   const [waitingForChoice, setWaitingForChoice] = useState(false);
+  const [challengesPlayed, setChallengesPlayed] = useState(0);
   const router = useRouter();
 
-  // Charger les données de jeu depuis le fichier JSON
+  // Charger les données de jeu et les joueurs depuis l'API protégée
   useEffect(() => {
     const loadGameData = async () => {
       try {
-        const response = await fetch("/data/actionouverite.json");
+        // Charger les données depuis l'API protégée
+        const response = await fetch("/api/games/action-ou-verite");
         if (response.ok) {
           const data = await response.json();
-          setGameData(data);
+          setGameData(data.gameData);
         } else {
           console.error("Erreur lors du chargement des données de jeu");
+          const errorData = await response.json();
+          console.error("Détails de l'erreur:", errorData);
         }
       } catch (error) {
         console.error("Erreur lors du chargement des données de jeu:", error);
       }
     };
 
-    loadGameData();
-  }, []);
-
-  // Charger les joueurs depuis localStorage
-  useEffect(() => {
-    try {
-      const savedPlayers = localStorage.getItem("selectedPlayers");
-      if (savedPlayers) {
-        const parsedPlayers = JSON.parse(savedPlayers) as SelectedPlayer[];
-        if (parsedPlayers.length >= 2) {
-          setPlayers(parsedPlayers);
+    const loadPlayers = async () => {
+      try {
+        // Charger les joueurs depuis l'API
+        const response = await fetch("/api/players");
+        if (response.ok) {
+          const playersData = await response.json();
+          if (playersData.length >= 1) {
+            setPlayers(playersData);
+          } else {
+            router.push("/players/manage");
+          }
         } else {
-          router.push("/players");
+          console.error("Erreur lors du chargement des joueurs");
+          router.push("/players/manage");
         }
+      } catch (error) {
+        console.error("Erreur lors du chargement des joueurs:", error);
+        router.push("/players/manage");
+      }
+    };
+
+    if (session) {
+      loadGameData();
+      loadPlayers();
+    }
+  }, [session, router]);
+
+  // Enregistrer une session de jeu
+  const saveGameSession = async () => {
+    try {
+      const playerIds = players.map((p) => p.id);
+      const response = await fetch("/api/games/action-ou-verite", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({
+          difficulty,
+          playerIds,
+          challengesPlayed,
+        }),
+      });
+
+      if (response.ok) {
+        console.log("Session de jeu enregistrée avec succès");
       } else {
-        router.push("/players");
+        console.error("Erreur lors de l'enregistrement de la session");
       }
     } catch (error) {
-      console.error("Erreur lors du chargement des joueurs:", error);
-      router.push("/players");
+      console.error("Erreur lors de l'enregistrement de la session:", error);
     }
-  }, [router]);
+  };
 
   // Générer un défi selon le type choisi
   const generateChallenge = (type: "action" | "verite") => {
@@ -146,6 +183,7 @@ export default function ActionOuVeritePage() {
       difficulty,
     });
     setWaitingForChoice(false);
+    setChallengesPlayed((prev) => prev + 1);
   };
 
   // Démarrer le jeu
@@ -279,7 +317,12 @@ export default function ActionOuVeritePage() {
     <main className="relative min-h-screen bg-gradient-to-br from-[#1a1a2e] via-[#16213e] to-[#0f3460] text-white">
       {/* Bouton accueil en haut à gauche */}
       <button
-        onClick={() => router.push("/")}
+        onClick={async () => {
+          if (challengesPlayed > 0) {
+            await saveGameSession();
+          }
+          router.push("/");
+        }}
         className="absolute top-4 left-4 z-10 rounded-lg bg-gradient-to-r from-gray-500 to-gray-600 px-3 py-2 text-sm font-medium transition-all duration-200 hover:scale-105"
       >
         🏠
@@ -401,5 +444,14 @@ export default function ActionOuVeritePage() {
         )}
       </div>
     </main>
+  );
+}
+
+// Composant principal avec protection d'authentification
+export default function ActionOuVeritePage() {
+  return (
+    <AuthGuard gameType="action-ou-verite" requiredPlayers={1}>
+      <ActionOuVeriteGame />
+    </AuthGuard>
   );
 }
