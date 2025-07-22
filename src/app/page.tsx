@@ -1,8 +1,10 @@
 "use client";
 import { useState, useEffect } from "react";
 import { redirect } from "next/navigation";
+import { signIn, signOut } from "next-auth/react";
 import { auth } from "~/server/auth";
 import { games } from "~/server/util";
+import { useAuth } from "~/hooks/useAuth";
 
 // Types pour les jeux
 interface Game {
@@ -95,6 +97,7 @@ function GameCard({
 export default function HomePage() {
   const [selectedCategory, setSelectedCategory] = useState<string>("Tous");
   const [authError, setAuthError] = useState<string | null>(null);
+  const { isLoading, isAuthenticated, user } = useAuth();
 
   // Vérifier les paramètres d'URL pour les erreurs d'authentification
   useEffect(() => {
@@ -159,6 +162,78 @@ export default function HomePage() {
             Découvrez et sélectionnez les meilleurs jeux pour animer vos soirées
             entre amis
           </p>
+        </div>
+
+        {/* Section d'authentification */}
+        <div className="mb-8 flex justify-center">
+          <div className="rounded-xl bg-white/10 p-4">
+            {isLoading ? (
+              <div className="flex items-center gap-2">
+                <div className="h-4 w-4 animate-spin rounded-full border-2 border-purple-400 border-t-transparent"></div>
+                <span className="text-gray-300">Chargement...</span>
+              </div>
+            ) : isAuthenticated ? (
+              <div className="flex items-center gap-4">
+                <div className="flex items-center gap-2">
+                  {user?.image ? (
+                    <img
+                      src={user.image}
+                      alt={user.name || "Avatar"}
+                      className="h-8 w-8 rounded-full border-2 border-green-400"
+                    />
+                  ) : (
+                    <div className="flex h-8 w-8 items-center justify-center rounded-full bg-gradient-to-r from-green-400 to-blue-400 text-sm font-semibold text-white">
+                      {user?.name?.[0]?.toUpperCase() ||
+                        user?.email?.[0]?.toUpperCase() ||
+                        "U"}
+                    </div>
+                  )}
+                  <div>
+                    <p className="text-sm font-medium text-white">
+                      Connecté en tant que {user?.name || user?.email}
+                    </p>
+                    <p className="text-xs text-gray-400">
+                      ✅ Accès à tous les jeux
+                    </p>
+                  </div>
+                </div>
+                <button
+                  onClick={() => signOut()}
+                  className="cursor-pointer rounded-lg bg-red-500/20 px-3 py-1 text-sm font-medium text-red-300 transition-colors hover:bg-red-500/30 hover:text-red-200"
+                >
+                  Se déconnecter
+                </button>
+              </div>
+            ) : (
+              <div className="flex items-center gap-4">
+                <div className="flex items-center gap-2">
+                  <div className="h-8 w-8 rounded-full bg-gradient-to-r from-gray-400 to-gray-600"></div>
+                  <div>
+                    <p className="text-sm font-medium text-white">
+                      Non connecté
+                    </p>
+                    <p className="text-xs text-gray-400">
+                      🔒 Accès limité aux jeux
+                    </p>
+                  </div>
+                </div>
+                <div className="flex gap-2">
+                  <button
+                    onClick={() => signIn("google")}
+                    className="cursor-pointer rounded-lg bg-blue-500/20 px-3 py-1 text-sm font-medium text-blue-300 transition-colors hover:bg-blue-500/30 hover:text-blue-200"
+                  >
+                    Google
+                  </button>
+                  <button
+                    onClick={() => signIn("discord")}
+                    className="cursor-pointer rounded-lg bg-indigo-500/20 px-3 py-1 text-sm font-medium text-indigo-300 transition-colors hover:bg-indigo-500/30 hover:text-indigo-200"
+                  >
+                    Discord
+                  </button>
+                </div>
+              </div>
+            )}
+          </div>
         </div>
 
         {/* Filtres et actions */}
